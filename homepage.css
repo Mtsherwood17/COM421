@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #2c3e50;
-    padding: 15px 0;
+    padding: 10px 0;
     margin-bottom: 20px;
 }
 
@@ -28,21 +28,16 @@ header nav ul {
     padding: 0;
 }
 
-header nav ul li {
-    margin: 0 15px;
-    background-color: #ecf0f1;
-    padding: 15px;
-    border-radius: 5px;
-}
-
 header nav ul li a {
     text-decoration: none;
     color: #2c3e50;
-    transition: color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: #e74c3c;
+    background-color: #34495e;
 }
 
 h1 {
@@ -56,34 +51,26 @@ p {
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
-li {
-    margin-bottom: 5px;
+ul li {
+    margin: 5px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 ul li a {
     text-decoration: none;
-    color: #0a59eb;
+    color: #2c3e50;
     transition: color 0.3s ease;
 }
 
 ul li a:hover {
     color: #e74c3c;
-}
-
-aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px rgb(1, 0, 2);
-    font-style: italic;
-    color: rgb(8, 31, 82);
-}
-
-.bold-text {
-    font-weight: bold;
 }
